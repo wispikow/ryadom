@@ -1,0 +1,20 @@
+{
+  "name": "ryadom",
+  "version": "1.0.0",
+  "description": "Рядом — цифровая аптечка психологической поддержки",
+  "main": "server.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node src/database/seed.js"
+  },
+  "dependencies": {
+    "express": "^5.3.0"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=22.5"
+  }
+}
